@@ -1,7 +1,22 @@
 {
+  "name": "ai-chat-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "^2.110.8",
-    "dotenv": "^17.4.2",
-    "openai": "^6.48.0"
+    "@supabase/supabase-js": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "next": "^9.3.3",
+    "openai": "^6.48.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "typescript": "7.0.2"
   }
 }
